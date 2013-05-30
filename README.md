@@ -1,7 +1,3 @@
-# Warning
-
-I've stopped using ember and am no longer maintaining this repository.  Support for this project will continue to be provided by [bartsqueezy](https://github.com/bartsqueezy) within the new [ember-handlebars-brunch repo](https://github.com/bartsqueezy/ember-handlebars-brunch).
-
 ## Ember Handlebars for Brunch
 
 This plugin adds [Ember Handlebars](http://emberjs.com/) template pre-compiling to
@@ -9,7 +5,7 @@ This plugin adds [Ember Handlebars](http://emberjs.com/) template pre-compiling 
 
 ## Usage
 
-Add `"ember-handlebars-brunch": "git+ssh://git@github.com:icholy/ember-handlebars-brunch.git"`. to `package.json` of your brunch app.
+Add `"ember-handlebars-brunch": "git+ssh://git@github.com:hoopy/ember-handlebars-brunch.git"`. to `package.json` of your brunch app.
 
 set the templates compiler in `config.coffee` set `precompile` to `true` if you want to enable it
 
