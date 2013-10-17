@@ -16,6 +16,7 @@ module.exports = class EmberHandlebarsCompiler
     if @config.files.templates.root?
       @root = sysPath.normalize(@config.files.templates.root)
       @root += sysPath.sep if @root[@root.length - 1] isnt sysPath.sep
+      @root = @root.replace(sysPath.sep ,'/')
     null
 
   compile: (data, path, callback) ->
